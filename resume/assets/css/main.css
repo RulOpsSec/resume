@@ -110,7 +110,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #06407a;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -209,7 +209,7 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #ececec, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: linear-gradient(to right, #5e42a6, #b74e91);
@@ -2548,27 +2548,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #181a1b;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #181a1b;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #507ab5;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #507ab5;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #000000;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #181a1b;
 				}
 
 /* Image */
@@ -3034,7 +3034,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(36, 54, 80, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3260,19 +3260,19 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #1682bc;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #1682bc;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #4e94b7;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #4e94b7;
 		}
 
 		.wrapper.fullscreen {
@@ -3382,7 +3382,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #426ca6;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3525,7 +3525,7 @@ input, select, textarea {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgba(255, 255, 255, 0.2);
 	}
 
 	#header + #wrapper + #footer > .inner {
