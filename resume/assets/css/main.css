@@ -2836,6 +2836,11 @@ input, select, textarea {
 					display: none;
 				}
 
+	.icons a:hover {
+		color: #1682bc;
+		transition: 0.6s;
+	}
+
 	.intro-icons a{
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -3028,6 +3033,10 @@ input, select, textarea {
 		}
 
 /* Spotlights */
+
+	.experience {
+		padding: 4em 4em 2em 4em;
+	}
 
 	.spotlights > section {
 		display: -moz-flex;
