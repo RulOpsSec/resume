@@ -3822,7 +3822,7 @@ input, select, textarea {
 				background-image: linear-gradient(to right, #61c9e8, #055d98);
 				-webkit-transition: max-width 1s ease;
 				-ms-transition: max-width 1 ease;
-				transition: max-width 1s ease;
+				transition: max-width s ease;
 				max-width: 0;
 			}
 
@@ -3940,10 +3940,9 @@ input, select, textarea {
 		padding-bottom: 20px;
 	}
 
-	/* .intro-buttons {
-		padding: 50px;
-		margin: 40px;
-	} */
+	.intro-buttons a{
+		margin-bottom: 10px;
+	}
 
 	#intro {
 		background-attachment: fixed;
