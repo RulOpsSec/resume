@@ -3980,3 +3980,83 @@ input, select, textarea {
 			}
 
 		}
+
+/* Keyframes animations */
+
+@keyframes slideRight {
+	0% {
+		transform: translateX(-100px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(100px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes slideTop {
+	0% {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes slideBottom {
+	0% {
+		transform: translateY(-100px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.salute {
+	transition: .5 ease;
+	animation: slideRight 2.2s ease forwards;
+}
+
+.name {
+	transition: .5 ease;
+	animation: slideLeft 1.8s ease forwards;
+}
+
+.profession {
+	transition: .5 ease;
+	animation: slideRight 2.2s ease forwards;
+}
+
+.intro-icons a{
+	opacity: 0;
+	transition: .5 ease;
+	animation: slideLeft 2.5s ease forwards;
+	animation-delay: calc(.2s * var(--i));
+}
+
+.intro-buttons {
+	opacity: 0;
+	transition: .5 ease;
+	animation: slideTop 3s ease forwards;
+	animation-delay: calc(.4s * var(--i));
+}
+
