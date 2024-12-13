@@ -3628,10 +3628,10 @@ input, select, textarea {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-				-moz-transition: opacity 0.15s ease, -moz-transform 0.75s ease;
-				-webkit-transition: opacity 0.15s ease, -webkit-transform 0.75s ease;
-				-ms-transition: opacity 0.15s ease, -ms-transform 0.75s ease;
-				transition: opacity 0.15s ease, transform 0.75s ease;
+				-moz-transition: opacity 0.15s ease, -moz-transform 10s ease;
+				-webkit-transition: opacity 0.15s ease, -webkit-transform 10s ease;
+				-ms-transition: opacity 0.15s ease, -ms-transform 10s ease;
+				transition: opacity 0.15s ease, transform 10s ease;
 				margin: 1.5em 0 0 0;
 				opacity: 1;
 				padding: 0;
@@ -3783,9 +3783,9 @@ input, select, textarea {
 				}
 
 		#sidebar nav a {
-			-moz-transition: color 0.8s ease;
-			-webkit-transition: color 0.8s ease;
-			-ms-transition: color 0.8s ease;
+			-moz-transition: color 1s ease;
+			-webkit-transition: color 1s ease;
+			-ms-transition: color 1s ease;
 			transition: color 0.2s ease;
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
@@ -3820,9 +3820,9 @@ input, select, textarea {
 				background-image: -webkit-linear-gradient(to right, #61c9e8, #055d98);
 				background-image: -ms-linear-gradient(to right, #61c9e8, #055d98);
 				background-image: linear-gradient(to right, #61c9e8, #055d98);
-				-webkit-transition: max-width 0.8s ease;
-				-ms-transition: max-width 0.8s ease;
-				transition: max-width 0.8s ease;
+				-webkit-transition: max-width 1s ease;
+				-ms-transition: max-width 1 ease;
+				transition: max-width 1s ease;
 				max-width: 0;
 			}
 
