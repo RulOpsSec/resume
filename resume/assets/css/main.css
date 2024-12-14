@@ -3940,6 +3940,11 @@ input, select, textarea {
 		padding-bottom: 20px;
 	}
 
+	#profession-title {
+		font-weight: 600;
+		color: #016aa2;
+	}
+
 	.intro-buttons a{
 		margin-bottom: 10px;
 	}
@@ -4056,6 +4061,5 @@ input, select, textarea {
 	opacity: 0;
 	transition: .5 ease;
 	animation: slideTop 3s ease forwards;
-	animation-delay: calc(.4s * var(--i));
+	animation-delay: calc(.6s * var(--i));
 }
-
