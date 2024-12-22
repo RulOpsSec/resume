@@ -187,17 +187,16 @@
 				}
 			});
 
-	
-	// On Scroll animation
+	// Sections animation
 		$('.addLeftAnimation').scrollex({
 			enter: function() {
-				$(this).css("animation", "slideLeft 2.2s ease forwards");
+				$(this).css("animation", "slideLeft 2.4s ease forwards");
 			}
 		});
 
-		$('.addTopAnimation').scrollex({
+		$('.addRightAnimation').scrollex({
 			enter: function() {
-				$(this).css("animation", "slideTop 2.2s ease forwards");
+				$(this).css("animation", "slideRight 2.4s ease forwards");
 			}
 		});
 

@@ -4088,16 +4088,19 @@ input, select, textarea {
 }
 
 .salute {
+	opacity: 0;
 	transition: .5 ease;
 	animation: slideRight 2.2s ease forwards;
 }
 
 .name {
+	opacity: 0;
 	transition: .5 ease;
 	animation: slideLeft 1.8s ease forwards;
 }
 
 .profession {
+	opacity: 0;
 	transition: .5 ease;
 	animation: slideRight 2.2s ease forwards;
 }
@@ -4114,9 +4117,4 @@ input, select, textarea {
 	transition: .5 ease;
 	animation: slideTop 3s ease forwards;
 	animation-delay: calc(.6s * var(--i));
-}
-
-.exp-1 {
-	transition: .5 ease;
-	animation: slideRight 2.2s ease forwards;
 }
