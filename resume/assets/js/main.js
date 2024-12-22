@@ -187,4 +187,18 @@
 				}
 			});
 
+	
+	// On Scroll animation
+		$('.addLeftAnimation').scrollex({
+			enter: function() {
+				$(this).css("animation", "slideLeft 2.2s ease forwards");
+			}
+		});
+
+		$('.addTopAnimation').scrollex({
+			enter: function() {
+				$(this).css("animation", "slideTop 2.2s ease forwards");
+			}
+		});
+
 })(jQuery);
