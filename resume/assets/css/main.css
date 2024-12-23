@@ -4118,7 +4118,3 @@ input, select, textarea {
 	animation: slideTop 3s ease forwards;
 	animation-delay: calc(.6s * var(--i));
 }
-
-/* #contact-form {
-	opacity: 0;
-} */

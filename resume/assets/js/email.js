@@ -3,7 +3,7 @@ emailjs.init('Ymkgk7ORe1akX9pN1');
 document.getElementById('contact-form').addEventListener('submit', function (e) {
     e.preventDefault();
     
-    emailjs.sendForm('service_9sta71l', 'Contact_Form_21qyw18', this)
+    emailjs.sendForm('service_9sta71l', 'contact_vchljsg', this)
         .then(function (response) {
             alert('Message sent successfully!');
         }, function (error) { 
