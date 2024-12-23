@@ -3201,6 +3201,10 @@ input, select, textarea {
 
 		}
 
+.g-recaptcha {
+	margin-bottom: 30px;
+}
+
 /* Table */
 
 	.table-wrapper {
