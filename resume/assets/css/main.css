@@ -1865,7 +1865,7 @@ input, select, textarea {
 			-webkit-transform: scale(0.25);
 			-ms-transform: scale(0.25);
 			transform: scale(0.25);
-			pointer-events: none;
+			/* pointer-events: none; */
 			/* -moz-transition: opacity 0.2s ease, -moz-transform 0.2s ease;
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
@@ -4118,3 +4118,7 @@ input, select, textarea {
 	animation: slideTop 3s ease forwards;
 	animation-delay: calc(.6s * var(--i));
 }
+
+/* #contact-form {
+	opacity: 0;
+} */

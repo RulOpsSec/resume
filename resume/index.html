@@ -184,26 +184,34 @@
 							<h2 class="addLeftAnimation">Contact</h2>
 							<div class="split style1">
 								<section>
-									<form method="post">
+									<form id="contact-form">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
-												<input type="text" name="name" id="name" placeholder="What's your name?"/>
+												<input type="text" name="name" id="name" placeholder="What's your name?" required/>
 											</div>
 											<div class="field half">
 												<label for="email">Email</label>
-												<input type="email" name="email" id="email" placeholder="What's your email?"/>
+												<input type="email" name="email" id="email" placeholder="What's your email?" required/>
 											</div>
 											<div class="field">
 												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5" placeholder="Your message goes here."></textarea>
-												
+												<textarea name="message" id="message" rows="6" placeholder="Your message goes here." maxlength="2000" required></textarea>
 											</div>
 										</div>
+										<!-- <div class="g-recaptcha" data-sitekey="6Lfot6IqAAAAAIrBQOdkL1FYJlDJWozDAyXCaOAO"></div> -->
 										<ul class="actions">
-											<li><a type="submit" class="button submit">Send</a></li>
+											<li id="send">
+												<button type="submit" class="button">Send</button>
+											</li>
 										</ul>
 									</form>
+									<div hidden>
+										<p>Message Sent successfully!</p>
+									</div>
+									<div hidden>
+										<p>Failed to send, please check all input fields are correct.</p>
+									</div>
 								</section>
 								<section>
 									<ul class="contact">
@@ -249,8 +257,10 @@
 				</div>
 			</footer>
 		<!-- Scripts -->
-			<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-			<script src="https://kit.fontawesome.com/a64d0117c4.js" crossorigin="anonymous"></script>
+			<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" async></script>
+			<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js" async></script>
+			<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+			<script src="https://kit.fontawesome.com/a64d0117c4.js" crossorigin="anonymous" async></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -259,5 +269,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/typed.js"></script>
+			<script src="assets/js/email.js" async></script>
 	</body>
 </html>
